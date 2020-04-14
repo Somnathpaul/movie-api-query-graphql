@@ -1,7 +1,12 @@
 const graphql = require('graphql');
 const _ = require('lodash');
 
-const {GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID} = graphql;
+const {
+   GraphQLObjectType,
+   GraphQLString,
+   GraphQLSchema, 
+   GraphQLID
+  } = graphql;
 
 // dummy data:
 
